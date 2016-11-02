@@ -1,0 +1,93 @@
+.container {
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+
+.simon {
+  width: 500px;
+  height 500px;
+  position: relative;
+  text-align: center;
+  margin: 5% 10%;
+  border: none;
+  outline: none;
+}
+
+.stack {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border: none;
+  outline: none;
+}
+
+.layer1 {
+  z-index: 0;
+}
+
+.layer2 {
+  z-index: 1;
+}
+
+.counter {
+  font-family: 'VT323';
+  color: #ea0000;
+  font-size: 1.5em;
+  font-size: 200%;
+  position: absolute;
+  top: 278px;
+  left: 381px;
+  padding: 0 20px;
+  width: 40%;
+  line-height: 150%;
+  letter-spacing: 4px;
+  z-index: 2;
+}
+
+.circle {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background: transparent;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.ghost {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  z-index: 4;
+}
+
+.power {
+  top: 273px;
+  left: 556px;
+}
+
+.strict {
+  top: 273px;
+  left: 488px;
+}
+
+.reset {
+  top: 273px;
+  left: 418px;
+}
+
+.hidden {
+  opacity: .01;
+}
+
+.instructions {
+  z-index: 5;
+}
