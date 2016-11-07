@@ -5,7 +5,7 @@
 The classic 1978 game <i>Simon</i> rebuilt using HTML, CSS, Javascript, and jQuery. It offers a strict mode and speeds up with progression. Remember a sequence of twenty to win!
 
 Play <i>Simon</i> now at: https://collinferry.github.io/simon/ </br>
-(Note the instructions before you click anything 😊 - you want to click "Power On" to begin playing. This is old school, remember?)
+(Note the instructions before you click anything 😊 - you want to click "Power On" to begin playing. This is old school, remember? Also, using sound is highly recommended.)
 
 <strong>At the moment this only runs in Chrome!</strong>
 
