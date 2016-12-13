@@ -98,7 +98,7 @@ $(document).ready(function() {
         }, speed)
 
       }
-      // If they got everything right, check for a winning streak of 20 
+      // If they got everything right, check for a winning streak of 20
     } else if (playerArray.length == 20) {
       victory.play();
       document.getElementById("count").innerHTML = "!!";
@@ -207,6 +207,7 @@ $(document).ready(function() {
   function colorToggle(tag, sound, value) {
     if (power === true) {
       $(tag).toggleClass('hidden');
+      sound.currentTime = 0; //this can allow for overlapping plays of the same sound, but currently it's nested in a timed function so it's ineffective
       sound.play();
       setTimeout(function() {
         $(tag).toggleClass('hidden');
